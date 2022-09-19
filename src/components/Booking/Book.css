@@ -1,0 +1,56 @@
+
+.size{
+    font-size: 1.8rem;
+}
+.rowbook{
+    padding-top: 5rem;
+    width: 50%;
+}
+
+.blockbook{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #c4c6cc;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #84CEEB;
+    border-radius: 2px;
+    font-size: 1.8rem;
+    background: linear-gradient(to bottom right, #5AB9EA, #84CEEB, #C1C8E4);
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+.save-btn{
+    width: 100%;
+}
+
+.seats{
+    height: max-content;
+}
+.headingbook{
+    margin-bottom: 20px;
+}
+@media (max-width: 576px){
+    .rowbook{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 576px){
+    .rowbook{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+    .rowbook{
+        width: 50%;
+    }
+}
